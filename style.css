@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap');
 
 body {
-    font-family: 'Cabin';
+    font-family: 'Figtree';
     background-color: #758190;
 }
 
@@ -21,7 +21,13 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
 }
+
+/* .stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+} */
 
 .stats-card {
     background-color: #a8b0bc;
@@ -30,6 +36,11 @@ body {
     margin: 1%;
     width: 100%;
     text-align: center;
+}
+
+.stats-card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 #num-contributions, #total-raised, #num-games {
@@ -66,10 +77,16 @@ body {
     text-align: center;
 }
 
+
 button {
-    font-family: 'Cabin';
+    font-family: 'Figtree';
     border: none;
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
